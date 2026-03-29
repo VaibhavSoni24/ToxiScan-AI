@@ -1,0 +1,14 @@
+{
+  "rf": {
+    "accuracy": 1.0,
+    "roc_auc": 1.0,
+    "f1": 1.0
+  },
+  "xgb": {
+    "accuracy": 1.0,
+    "roc_auc": 1.0,
+    "f1": 1.0
+  },
+  "n_features": 12,
+  "n_samples": 7831
+}
