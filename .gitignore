@@ -41,36 +41,11 @@ venv.bak/
 .env.test.local
 .env.production.local
 
-# ─── ML Models (large binary files) ──────────────────────────────────────────
-model/*.pkl
-model/*.h5
-model/*.pt
-model/*.pth
-model/*.onnx
-model/*.bin
-# Keep metrics.json
-!model/metrics.json
-!model/.gitkeep
-
 # ─── Datasets (download at runtime via kagglehub) ────────────────────────────
 data/
 !data/.gitkeep
 *.csv
 !notebooks/sample_data.csv
-
-# ─── Generated Plots & Assets ─────────────────────────────────────────────────
-*.png
-*.jpg
-*.jpeg
-*.svg
-assets/feature_importance_*.png
-shap_summary.png
-shap_waterfall.png
-model_evaluation.png
-eda_overview.png
-toxiscan_models.zip
-# Keep logo
-!assets/logo.png
 
 # ─── Jupyter / IPython ────────────────────────────────────────────────────────
 .ipynb_checkpoints/
